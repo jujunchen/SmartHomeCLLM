@@ -6,7 +6,7 @@ def process_input(user_input):
     #     # 构造API请求  
     #     url = "https://smarthome-dev.gtdreamlife.com/smartlife/chat"  
     #     headers = {"Content-Type": "application/json"}  # 根据你的API需求调整  
-    #     data = {"messages": user_input}  # 构造请求体，这里假设API需要一个名为"param"的参数  
+        data = {"messages": user_input}  # 构造请求体，这里假设API需要一个名为"param"的参数  
         
     #     # 发起请求并获取响应  
     #     response = requests.post(url, headers=headers, json=data)  
@@ -19,7 +19,7 @@ def process_input(user_input):
     # except Exception as e:
     #     print(e)
     #     return {"error": str(e)}
-    return {"response": "Failed to fetch data from API"}
+        return data
   
 # 创建Gradio界面  
 iface = gr.Interface(  
