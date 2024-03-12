@@ -24,7 +24,7 @@ def process_input(user_input):
 # 创建Gradio界面  
 iface = gr.Interface(  
     fn=process_input,  
-    inputs=gr.Textbox(label="输入指令"),  
+    inputs=gr.Textbox(label="输入指令222"),  
     outputs=gr.JSON(), 
     title="智能家居指令大模型Demo"  
 )
