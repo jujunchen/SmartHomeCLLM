@@ -17,6 +17,7 @@ def process_input(user_input):
         else:  
             return {"error": "Failed to fetch data from API"} 
     except Exception as e:
+        print(e)
         return {"error": str(e)}
   
 # 创建Gradio界面  
