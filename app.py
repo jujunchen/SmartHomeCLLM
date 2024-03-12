@@ -19,7 +19,7 @@ def process_input(user_input):
     # except Exception as e:
     #     print(e)
     #     return {"error": str(e)}
-    return {"error": "Failed to fetch data from API"}
+    return {"response": "Failed to fetch data from API"}
   
 # 创建Gradio界面  
 iface = gr.Interface(  
