@@ -24,7 +24,7 @@ iface = gr.Interface(
     fn=process_input,  
     inputs=gr.Textbox(label="输入指令"),  
     outputs=gr.JSON(), 
-    title="智能家居指令大模型Demo"  
+    title="绿城智能家居指令大模型Demo"  
 )
 
 # 启动界面  
