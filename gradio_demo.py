@@ -3,7 +3,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # 修改为模型路径
-model_name_or_path = "/app/models/internlm2-chat-7b-ft/Greentown_SmartHomeCLLM/"
+model_name_or_path = "./Greentown_SmartHomeCLLM/"
 
 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
