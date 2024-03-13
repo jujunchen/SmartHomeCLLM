@@ -40,7 +40,7 @@
 - [🚀 News](#-news)
 - [📦 Model Zoo](#-ModelZoo)
 - [⚡️ 性能](#-性能)
-- [🛠️ 使用方法](#%EF%B8%8F-使用方法)
+- [🛠️ 使用方法](#-使用方法)
     + [文件说明](#文件说明)
     + [环境搭建](#环境搭建)
     + [运行Demo](#运行Demo)
@@ -59,7 +59,7 @@
 
 ## 🚀 News
 - 2024.03.12 项目第一版上线
-## 📦 Model Zoo
+## 📦 ModelZoo
 | 模型名称 | OpenXLab | Release Date |
 | :----: | :----: | :----: |
 | InternLM2-Chat-7B-SFT-SMC-V1.0	 | [![OpenXLab_Model][OpenXLab_Model-image]][OpenXLab_Model-url] | 2024.03.12 |
