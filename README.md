@@ -90,7 +90,12 @@ conda activate smartHomeCLLM
 3. 安装依赖
 ```bash
 pip install gradio==4.21.0
-ip install requests
+pip install requests
+pip install torch
+pip install transformers
+pip install sentencepiece
+pip install einops
+pip install accelerate
 ```
 4. 模型下载
 ```bash
