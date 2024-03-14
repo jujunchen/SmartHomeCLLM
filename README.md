@@ -67,13 +67,14 @@
 使用OpenCompass进行测试，结果如下：
 |dataset|     version|    metric|    mode|      InternLM2-Chat-7B-SFT-SMC-V1.0|
 | :----: | :----: | :----: | :----: | :----: |
-|smart_home|  7c7205|     accuracy|  gen|                             72.05|
+|smart_home|  7c7205|     accuracy|  gen|                             71.91|
 ## 🛠️ 使用方法
 ### 文件说明
 - app.py:  openxlab 应用代码，通过api接口调用部署在测试服务器上的前端应用接口
 - requirements.txt:  openxlab 应用依赖包列表
 - gradio_demo.py:  使用gradio搭建的前端应用，可以直接调用大模型，用于展示模型效果，内置了设备数据、场景数据。要体验大模型的指令识别能力，可以运行该文件。
 - internlm2_chat_7b_qlora_smarthome_e30.py: 微调训练配置文件
+- 模型评测结果: 包含模型评测结果文件
 
 ### 环境搭建
 1. clone 本项目

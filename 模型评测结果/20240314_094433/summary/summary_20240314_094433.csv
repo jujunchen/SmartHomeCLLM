@@ -1,0 +1,2 @@
+dataset,version,metric,mode,InternLM2-Chat-7B-SFT-SMC-V1.0
+smart_home,7c7205,accuracy,gen,71.91
