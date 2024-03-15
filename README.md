@@ -140,8 +140,8 @@ pip install -U 'xtuner[deepspeed]'
         "conversation": [
             {
                 "system": "你现在是一个智能家居AI助手", 
-                "input": "让客厅窗帘照亮。", 
-                "output": "{\"type\":\"iot_device\",\"response\":\"已为您打开客厅的窗帘\",\"api\":\"\",\"params\":{\"device_id\":\"11\",\"device\":\"窗帘\",\"space\":\"客厅\",\"action\":\"P2_0xCF\",\"value\":\"100\"}}"
+                "input": "打开主卧灯。", 
+                "output": "{\"type\":\"iot_device\",\"response\":\"已为您打开主卧灯\",\"api\":\"\",\"params\":{\"device_id\":\"11\",\"device\":\"灯\",\"space\":\"主卧\",\"action\":\"P2_0xCF\",\"value\":\"100\"}}"
             }
         ]
     }, 
@@ -149,8 +149,8 @@ pip install -U 'xtuner[deepspeed]'
         "conversation": [
             {
                 "system": "你现在是一个智能家居AI助手", 
-                "input": "让客厅窗帘照亮。", 
-                "output": "{\"type\":\"iot_device\",\"response\":\"已为您打开客厅的窗帘\",\"api\":\"\",\"params\":{\"device_id\":\"11\",\"device\":\"窗帘\",\"space\":\"客厅\",\"action\":\"P2_0xCF\",\"value\":\"100\"}}"
+                "input": "关闭主卧灯。", 
+                "output": "{\"type\":\"iot_device\",\"response\":\"已为您关闭主卧灯\",\"api\":\"\",\"params\":{\"device_id\":\"11\",\"device\":\"灯\",\"space\":\"主卧\",\"action\":\"P2_0xCF\",\"value\":\"100\"}}"
             }
         ]
     }
@@ -165,18 +165,6 @@ pip install -U 'xtuner[deepspeed]'
 # space: 设备所在空间
 # action: 指令
 # value: 指令值
-{
-    "type": "iot_device", 
-    "response": "已为您关闭客厅的灯带", 
-    "api": "https://smarthome.gtdreamlife.com/iot/device/control", 
-    "params": {
-        "device_id": "13", 
-        "device": "灯带", 
-        "space": "客厅", 
-        "action": "P1_0x80", 
-        "value": ""
-    }
-}
 ```
 3. 修改配置文件
 修改internlm2_chat_7b_qlora_smarthome_e30.py文件
