@@ -108,7 +108,7 @@ git clone https://code.openxlab.org.cn/Greentown/Greentown_SmartHomeCLLM.git
 ```
 ### 运行Demo
 1. 在线Demo体验
-> - 在线Demo对接了实验室的IOT平台，能真实控制实验室设备
+> - 为了部署到openXLab，我们开发了跟演示视频不同的Demo，该Demo也对接了实验室的IOT平台，能真实控制实验室设备
 >
 > - 直播地址能够实时看到设备控制情况，由于摄像头问题，*请在手机端打开观看，视频流有20秒左右延迟，请评委耐心等待一下...有时候会打不开，麻烦评委多尝试一下...*
 

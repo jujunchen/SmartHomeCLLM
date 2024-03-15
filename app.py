@@ -24,7 +24,11 @@ iface = gr.Interface(
     fn=process_input,  
     inputs=gr.Dropdown(["打开主卧灯", "关闭主卧灯"], label="选择指令"),
     outputs=gr.JSON(), 
-    description= "做为演示，仅支持两个指令，后续我们将支持更多设备指令",
+    article= """1、为了部署到openXLab，我们开发了跟演示视频不同的Demo，该Demo也对接了实验室的IOT平台，能真实控制实验室设备，该Demo仅支持两个指令。
+    <br/>
+    2、直播地址能够实时看到设备控制情况，<b>由于摄像头问题，请在手机端打开观看，视频流有20秒左右延迟，请评委耐心等待一下...有时候会打不开，麻烦评委多尝试一下...
+    <br/>直播地址：http://test.aliali.vip/video</b>
+    """,
     title="绿城智能家居指令大模型Demo"  
 )
 
